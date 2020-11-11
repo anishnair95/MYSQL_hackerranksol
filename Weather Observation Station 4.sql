@@ -1,0 +1,5 @@
+/*
+Enter your query here.
+*/
+
+SELECT ((SELECT COUNT(*) FROM STATION)-(SELECT COUNT(DISTINCT CITY) FROM STATION))
